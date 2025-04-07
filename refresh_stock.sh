@@ -5,6 +5,8 @@ rm -rf /tmp/6.0.zip
 
 rm -rf /tmp/zabbix-release-6.0
 
+mkdir -p /tmp/zabbix-release-6.0
+
 # download latest 6.0 branch
 curl -kL https://github.com/zabbix/zabbix/archive/refs/heads/release/6.0.zip -o /tmp/6.0.zip
 
